@@ -30,4 +30,3 @@ A clean, responsive cafe menu website built with HTML and CSS, featuring coffee 
 - **CSS3** - Styling and layout
 - **External Images** - High-quality food photography from freeCodeCamp
 
-## 📁 Project Structure

@@ -1,0 +1,80 @@
+
+body {
+  background-image: url("https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d3{
+    border-bottom: 2px solid brown;
+}
+.container {
+  background-color: burlywood;
+  width: 400px;
+  height: 700px;
+  padding: 20px;
+ 
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+#h {
+  color: brown;
+}
+
+/* Improved list styling */
+#l1, #l2, #l3, #l4 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Make list items display inline */
+#l1 li, #l2 li, #l3 li, #l4 li {
+  display: block; /* Changed from inline to block for better control */
+  padding: 2px 0; /* Add small vertical spacing */
+}
+
+/* Align price lists to the right */
+#l2, #l4 {
+  text-align: right;
+}
+
+/* Improved list container layout */
+.list1, .list2 {
+  display: flex;
+  justify-content: space-between; /* Better than fixed gap */
+  width: 100%;
+}
+
+/* Add border between items for better readability */
+.list1 
+  {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.list2
+  {
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.d5{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:black;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    align-self: center;
+}
